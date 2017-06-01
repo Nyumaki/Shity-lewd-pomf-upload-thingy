@@ -1,0 +1,121 @@
+html,
+body {
+    background-color: #242424;
+    font-family: 'Montserrat', sans-serif;
+}
+.activee {
+    background-color: #171717 !important;
+}
+.container {
+    width: 80%;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background: #6B247D;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-track {
+    background: #2c2c2c;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.markup {
+    color: #737f8d;
+    line-height: 1.1em;
+    white-space: pre-wrap;
+    margin-top: 6px;
+    word-wrap: break-word;
+    text-align: left;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+.markup pre {
+    background: #2e3136;
+    border: 2px solid #282b30;
+    border-radius: 5px;
+    max-width: 90%;
+    box-sizing: border-box;
+    font-family: Consolas,Liberation Mono,Menlo,Courier,monospace;
+    white-space: pre-wrap;
+    margin-top: 6px;
+    color: #839496;
+}
+.markup pre code {
+    background: #2e3136;
+    text-indent: 0;
+}
+.hljs-attr{
+    color: #b58900;
+}
+.hljs-string {
+    color: #2aa198;
+}
+.header {
+    background: url(https://a.pomf.cat/fraxio.jpg) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 5px solid #7C35A6;
+}
+.logo-wrapper {
+    padding: 100px inherit;
+    height: 200px;
+    display: inline-block;
+}
+.panel {
+    border: 3px solid #1c1c1c;
+}
+.panel-footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    border-radius: 0px;
+}
+.panel-heading {
+    background-color: #1c1c1c !important;
+    color: #fff !important;
+    border-radius: 0px;
+}
+.panel-body {
+    background-color: #242424;
+    color: #fff;
+    border-radius: 0px;
+}
+h1 {
+    color: #fff !important;
+    font-size: 50px;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
+}
+h3 {
+    color: #8D37BF !important;
+    font-size: 24px;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
+}
+p {
+    color: #fff !important;
+    font-size: 1em;
+    text-shadow: 0px 0px 16px rgba(0, 0, 0, 1);
+}
+p img {
+    height: 3em;
+    width: auto;
+}
+a {
+    color: #fff !important;
+    transition: .6s;
+}
+a:hover {
+    color: #8D37BF !important;
+    text-decoration: none;
+    transition: .6s;
+}
+.well {
+    background-color: #1c1c1c;
+    border: 3px solid #171717;
+    text-align: center;
+}
+.ok {
+    border: 0;
+    width: 60%;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(129, 51, 158, 0.75), rgba(0, 0, 0, 0));
+}
