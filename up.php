@@ -2,19 +2,8 @@
 $url         = 'http://a.kawaii.gg/';
 $filedir     = '../a.kawaii.gg';
 $maxsize     = 20000000; //in bytes
-$allowedExts = array(
-    'png',
-    'jpg',
-    'jpeg',
-    'gif'
-);
-$allowedMime = array(
-    'image/png',
-    'image/jpeg',
-    'image/pjpeg',
-    'image/gif'
-);
-
+$allowedExts = array('png', 'jpg', 'jpeg', 'gif');
+$allowedMime = array('image/png', 'image/jpeg', 'image/pjpeg', 'image/gif'); //stops le hacker from hacking your site
 function generateRandomString($length = 5)
 {
     $characters       = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
