@@ -1,6 +1,6 @@
 <?php
 $url         = 'http://a.kawaii.gg/';
-$filedir     = '../a.kawaii.gg';
+$filedir     = '../a.kawaii.gg'; //this is were my subdomain is located
 $maxsize     = 20000000; //in bytes
 $allowedExts = array('png', 'jpg', 'jpeg', 'gif');
 $allowedMime = array('image/png', 'image/jpeg', 'image/pjpeg', 'image/gif'); //stops le hacker from hacking your site
